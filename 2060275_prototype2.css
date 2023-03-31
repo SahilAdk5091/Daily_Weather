@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+         @import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css);
+         body {
+                height: 100vh;
+                width: 100vw;
+                font-family: sans-serif;
+                background: #f8f8f8;
+                background-image: linear-gradient(57deg, darkblue, black);
+                background-size: cover;
+                background-position: top center;
+                position: relative;
+                z-index: 1;
+                color:white;
+                font-size: 1.1rem;
+         }
+         .daily{
+                  color:white;
+                  font-size: 3rem;
+                  padding: 10px;
+         }
+         .widget {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            display: flex;
+            height: 380px;
+            width: 600px;
+            transform: translate(-50%, -50%);
+            flex-wrap: wrap;
+            cursor: pointer;
+            border-radius: 20px;
+            box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3), 0 17px 17px 0 rgba(0, 0, 0, 0.15);
+         }
+         .widget .weatherIcon {
+          flex: 1 100%;
+          height: 39%;
+          border-top-left-radius: 20px;
+          border-top-right-radius: 20px;
+          background: #FAFAFA;
+          font-family: weathericons;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          font-size: 100px;
+       }
+      
+      .widget .weatherIcon i {
+       padding-top: 30px;
+       }    
+       .name{
+        margin-bottom: -10px;
+      }
+      .temp{
+        margin-bottom: -10px;
+     
+      }
+      .desc{
+        margin-bottom: -10px;
+     
+      }
+      .humidity{
+        margin-bottom: -10px;
+     
+      }
+      .pressure{
+        margin-bottom: -10px;
+     
+      }
+      .windspeed{
+        margin-bottom: -10px;
+     
+      }
+      .description{
+        margin-left: 15px;
+      }
